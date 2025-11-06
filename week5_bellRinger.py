@@ -25,13 +25,16 @@ every_second= print(alphabet[0:13:2])
 reversed_alphabet=print(alphabet[ : :-1])
 
 i_have_a_dream= "i have a dream that one day this nation will rise up" 
-reversed_i_have_a_dream=print(i_have_a_dream[ : :-1])
+reversed_dream=print(i_have_a_dream[ : :-1])
 
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
+famous_qoute= "ask not what your country can do for you-ask what you can do for your country"
+john_f_kennedy= print(famous_qoute.find("john F. Kennedy"))
 
+extracted_name =print(famous_qoute[:83])
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
 # a. Extract the word 'subjective' without knowing its exact position.
