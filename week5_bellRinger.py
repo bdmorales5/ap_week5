@@ -12,9 +12,21 @@ last_a_index=print(magic.rindex('a'))
 # rindex finds the last occurrence of a specified value.
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # a. Extract the letters 'hij'.
+# hij=print(alphabet[7:10])
+hij=print(alphabet.index('hij'))
+hiji=print(alphabet[7:10])
 # b. Extract every second letter starting from 'a' to 'm'.
-# c. Reverse the entire string using slicing.
+m_index= print(alphabet.index('m'))
+every_second= print(alphabet[0:13:2])
+
+#  c. Reverse the entire string using slicing.
+reversed_alphabet=print(alphabet[ : :-1])
+
+i_have_a_dream= "i have a dream that one day this nation will rise up" 
+reversed_i_have_a_dream=print(i_have_a_dream[ : :-1])
+
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
