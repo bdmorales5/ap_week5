@@ -1,10 +1,15 @@
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
 # Given the string magic = 'abracadabra',
-# a. Retrieve the 5th character.
+magic = 'abracadabra'
+# a. Retrieve the 5th character. 
+fifth_char = print(magic[4])
 # b. Retrieve the second to last character.
+second_to_last_char =print(magic[-2])
 # c. Find the first occurrence of the letter 'c'.
-
+first_c_index=print(magic.index('r'))
+last_a_index=print(magic.rindex('a'))
+# rindex finds the last occurrence of a specified value.
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
 # a. Extract the letters 'hij'.
